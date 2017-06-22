@@ -1,0 +1,37 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~F#.PrjPCB|ReportField=ProjectFullPath~C:\Users\LD013\Desktop\F#测机原理图 Ver 2.0\F#.PrjPCB|ReportField=Title~Bill of Materials For Project [F#.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~220|ReportField=ReportTime~8:21:42|ReportField=ReportDate~2017/6/16|ReportField=ReportDateTime~2017/6/16 8:21:42|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2017/6/16|ReportField=CurrentTime~8:21:39|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\LD013\Desktop\F#测机原理图 Ver 2.0\F# Sheet.SchDoc|ReportField=DocumentName~F# Sheet.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2017/6/15|ReportField=Organization~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~F#.PrjPCB|ReportField=DataSourceFullPath~C:\Users\LD013\Desktop\F#测机原理图 Ver 2.0\F#.PrjPCB
+JUSB3.3||||JUSB3.3|1
+Buzzer|Magnetic Transducer Buzzer|B1|ABSM-1574|Buzzer|1
+|Capacitor (Semiconductor SIM Model)|C1, C2, C3, C4, C5, C7, C9, C11, C12, C13, C14, C15, C16, C17, C18, C19, C20, C21, C24, C25, C26, C27, C28, C30, C31, C32, C33, C34, C39, C42, C43, C45, C46, C47, C48, C49, C50, CD1, CD2, CD3, CF1, CF2, CST, CST1, CST3, CU1|0402|Cap Semi|46
+|Capacitor|C6, C23, C29, C35, C36, C37, C38, C40, C41, C44, CU2|CAPR5-4X5|Cap2|11
+LCD||CON20||INTERNAL_CON20|1
+|1 Amp General Purpose Rectifier|D1, D2, D12, D13, D14, LD2, LED|DO-41|Diode 1N4001|7
+Diode|1 Amp General Purpose Rectifier|D3, D4, D5, D6, D7, D8, D9, D10, D11, D15, D16|DO-41|Diode 1N4001|11
+IN4148#|1 Amp General Purpose Rectifier|D17|DO-41|Diode 1N4001|1
+|Resistor|F1, F2, JB, JB0, JSEEP4, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R41, R42, R43, R44, R48, R49, R50, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R71, R72, RD1, RD2, RD3, RD4, RD5, RD6, RH1, RH2, RH3, RH4, RH5, RH6, RL1, RL3, RST, RST1, RST3, RV1, RV2, RX1, RX4, XR1|AXIAL-0.3|Res1|86
+Header 5X2|Header, 5-Pin, Dual row|ISP, ISP51|HDR2X5|Header 5X2|2
+INTERNAL_CON20||J3||INTERNAL_CON20|1
+CON10||J4||CON10|1
+Res Pack4|Isolated Resistor Network|JRSP, R46 AND R47, RJO1 AND RJO2|SSOP16|Res Pack4|3
+Header 5|Header, 5-Pin|JSP|HDR1X5|Header 5|1
+Inductor|Inductor|L1, L2, L3|0402-A|Inductor|3
+Header 7|Header, 7-Pin|POWER|HDR1X7|Header 7|1
+QNPN|NPN Bipolar Transistor|Q1|SOT-23B|QNPN|1
+RPot|Potentiometer|R40, RW1, RW2|VR5|RPot|3
+SDCard1||SDcard||SDCard1|1
+RELAY||T1, T2, T3, T4, T5, T6, T7, T8||RELAY|8
+ATmega32-16AC|8-Bit AVR Microcontroller with 32K Bytes of In-System Programmable Flash Memory|U1|44A|ATmega32-16AC|1
+DC-DC||U2, U8, U13||DC-DC|3
+SN74LS595N|8-Bit Shift Register with Output Latch|U3, U6|N016|SN74LS595N|2
+||U7||AT89S52|1
+SN74LS541DW|Octal Buffer/Line Driver with 3-State Outputs|U9, U10, U11|751D-03|SN74LS541DW|3
+LM324ADR|Quadruple Operational Amplifier|U12|D014|LM324ADR|1
+LM78L12ACH|3-Terminal Positive Regulator|U14, U15|H03A|LM78L12ACH|2
+ADS7844E||U16||ADS7844E|1
+OP77BZ|Ultra-Low Offset Voltage Operational Amplifier|U17 A, U17 B, U18 A, U18 B, U24 A, U24 B|Q-8|OP77BZ|6
+LM324AD|Quad Low-Power Operational Amplifier|U20|751A-02|LM324AD|1
+NE5532P|Dual Low-Noise Operational Amplifier|U21, U22|P008|NE5532P|2
+MAX471||U26||MAX471|1
+UD1||UD1||UD1|1
+USB||USB||USB|1
+L1089-3.3||UU1||l1089-3.3|1
+XTAL|Crystal Oscillator|Y1, Y2, Y3|R38|XTAL|3
